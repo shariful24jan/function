@@ -7,65 +7,65 @@
 
 
 // Problem-1:
-// let num1 = 10;
-// let num2 = 5;
-// function addNumbers(number1,number2){
-//       return number1 + number2;
-// }
-// console.log(addNumbers(num1,num2));
+let num1 = 10;
+let num2 = 5;
+function addNumbers(number1,number2){
+      return number1 + number2;
+}
+console.log(addNumbers(num1,num2));
 
 
 
 // Problem-2:
-// let  num = 20;
-// let sum = 0;
+let  num = 20;
+let sum = 0;
 
-// function sumUpToN(n){
-//        for(i = 1; i <= n; i++){
-//               sum = sum + i;
-//        }
-//        return sum
-// } 
+function sumUpToN(n){
+       for(i = 1; i <= n; i++){
+              sum = sum + i;
+       }
+       return sum
+} 
 
-// console.log(sumUpToN(num));
+console.log(sumUpToN(num));
 
 
 // problem-3:
  
-// let num = [10,14,5,12]
-// let sum = 0;
-// function sumArray(a){
-//        for(i = 0; i < a.length; i++){
-//               sum = sum + a[i];
-//        }
-//           return sum;
-// }
+let num = [10,14,5,12]
+let sum = 0;
+function sumArray(a){
+       for(i = 0; i < a.length; i++){
+              sum = sum + a[i];
+       }
+          return sum;
+}
 
-// console.log(sumArray(num));
+console.log(sumArray(num));
 
 
 
 // problem-4:
-// let num = [10,13,15,8,14,25,18,20];
-// let sum = 0;
-// function countEvenNumbers(n){
-//        for(i = 0; i < n.length; i++){
-//        if(n[i] % 2 === 0){
-//        sum++
-//        }
-// }
-// return sum
-// }
+let num = [10,13,15,8,14,25,18,20];
+let sum = 0;
+function countEvenNumbers(n){
+       for(i = 0; i < n.length; i++){
+       if(n[i] % 2 === 0){
+       sum++
+       }
+}
+return sum
+}
 
-// console.log(countEvenNumbers(num));
+console.log(countEvenNumbers(num));
 
 
 
 // problem-5:
-// let string = "Shariful islam";
+let string = "Shariful islam";
 
-// function stringLength(s){
-//        length = s.length;
-//        return length;
-// }
-// console.log(stringLength(string));
+function stringLength(s){
+       length = s.length;
+       return length;
+}
+console.log(stringLength(string));
